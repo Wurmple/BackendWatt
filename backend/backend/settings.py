@@ -128,7 +128,7 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ORIGIN_WHITELIST = [
-    'https://wattwise-ten.vercel.app/'
+    'https://wattwise-ten.vercel.app'
 ]
 
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
